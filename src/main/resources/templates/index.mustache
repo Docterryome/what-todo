@@ -1,6 +1,3 @@
-<ul>
-    <h1>{{user.firstName}}</h1>
-    {{#tasks}}
-    <li>{{name}} : {{startDate}}</li>
-    {{/tasks}}
-</ul>
+{{>header}}
+    {{>toDoList}}
+{{>footer}}
